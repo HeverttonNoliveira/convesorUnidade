@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Conversor de Unidades</title>
+		<link rel="stylesheet" href="css/css.css" />
+	</head>
+	<body>
+		<h3>Conversor de Unidades</h3>
+		<form action="">
+			<p>Quantidade</p>
+			<input type="number" name="number" id="quant" autofocus />
+
+			<p>De</p>
+			<select name="" id="unidade1">
+				<option value="m">Metros(s)</option>
+				<option value="cm">centimetros</option>
+				<option value="ml">Milimetros</option>
+				<option value="km">Quilometros</option>
+			</select>
+
+			<p>De</p>
+			<select name="" id="unidade2">
+				<option value="m">Metros(s)</option>
+				<option value="cm">centimetros</option>
+				<option value="ml">Milimetros</option>
+				<option value="km">Quilometros</option>
+			</select>
+
+			<input type="button" value="Conventer" class="conversor" onclick="converter()" />
+			<input type="reset" value="Limpar" class="ret" onclick="" />
+
+			<p class="resp"></p>
+		</form>
+
+		<script src="js/conversor.js"></script>
+	</body>
+</html>
